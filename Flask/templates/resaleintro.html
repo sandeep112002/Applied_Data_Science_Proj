@@ -1,0 +1,83 @@
+<html>
+<head>
+    <title>Resale Value Prediction</title>
+    <style>
+		.header {
+			top:0px;
+			margin:0px;
+			left: 0px;
+			right: 0px;
+			position: fixed;
+			background: #304040;
+			color: yellow;
+			overflow: hidden;
+			padding-bottom: 30px;
+			font-size: 2.25vw;
+			width: 100%;
+			padding-left:0px;
+			text-align: center;
+			padding-top:20px;
+		}
+        .second {
+            top: 80px;
+            bottom: 0px;
+            margin: 0px;
+            left: 0px;
+            right: 0%;
+            position: fixed;
+            padding: 0px;
+            width: 100%;
+            background-image: url(https://editorial.pxcrush.net/carsales/general/editorial/honda-civic-type-r-053.jpg?width=1024&height=683);
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+		.inside{
+			top:80px;
+			bottom:0px;
+			margin:0px;
+			left: 58.5%;
+			right: 0%;
+			position: fixed;
+			padding-left: 40px;
+			padding-top:8%;
+			padding-right:40px;
+			background-color:#E4EEFF;
+			font-family:Georgia, serif;
+			color:black;
+			font-size:20px;
+			text-align:justify;
+
+		}
+		.myButton{
+			  border: none;
+			  text-align: center;
+			  cursor: pointer;
+			  text-transform: uppercase;
+			  outline: none;
+			  overflow: hidden;
+			  color: yellow;
+			  font-weight: 700;
+			  font-size: 12px;
+			  background-color: #309090;
+			  padding: 10px 15px;
+			  margin: 0 auto;
+			  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+		}
+    </style>
+</head>
+<body>
+    <div class="header">Get the Accurate Resale Value of your Car!!</div>
+    <div class="second">
+        <div class="inside">
+            In light of challenging economic conditions, it is expected that the demand for second-hand imported (reconditioned) cars and used cars will rise. There are several independent dealers who sell second hand cars. Each of them value the vehicles differently. There will be a lack of uniform appraisal. You can obtain and compare the resale values of several vehicles at the same time which makes price evaluation a time efficient process. Moreover, we can also compare the price ranges of different dealers and bring up a common evaluation system. 
+            <br><br><br>
+            <div style="margin-left:17%">
+                <a href="{{url_for('predict')}}"><button type="button" class="myButton">Click here to know the resale value of your car</button></a>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
+
